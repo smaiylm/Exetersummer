@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>The First Annual Exeter Summer Athletic Meet</title>
+
+<Style>
+Body{}
+
+a:hover {color:green}
+a:visited {color:white}
+a:link {color:yellow; text-align:center}
+
+
+
+</Style>
+</head>
+
+<body background="background.jpg">
+
+
+ 
+<body>
+<h1 style="color:red; text-align:center">Welcome to The First Annual Exeter Summer Athletic Meet's Official Website!</h1></br>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="image1.jpg" style="width:50%" align="middle">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="image2.jpg" style="width:50%" align="center">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="image3.jpg" style="width:50%" align="middle">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="image4.jpg" style="width:50%" align="middle">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="image5.jpg" style="width:50%" align="middle">
+  <div class="text"></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script></br>
+
+<h1 style="color:blue; background-color:white"><marquee behavior="scroll" direction="left">The First Annual Exeter Summer Athletic Meet was held on July 26, 2017 @6:00pm - 8:00pm </marquee></h1></br>
+
+
+<h1 style="text-align:center; color:white">
+<a href="aboutus.html">Our Mission</a></br>
+<a href="results2017.html">Results from Running Events</a></h1></br>
+<h3 style="text-align:center; color:gold"><p> Resources we have used</p>
+<a href="email2017.html">Our All-School Email</a></br>
+<a href="flyer.html">Flyer</a></br>
+<a href="https://goo.gl/forms/AIngpi3VmT74zwYF3">Our online survey for running event selection</a></br>
+
+</h3>
+
+</body></html>

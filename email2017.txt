@@ -1,0 +1,17 @@
+<html><head><title>Our All School Email</title>
+
+<style>
+Body{}
+
+a:hover {color:green}
+a:visited {color:white}
+a:link {color:yellow; text-align:center}
+
+</style></head>
+<body background="background2.jpg">
+<h1 style="color:blue; text-align:center">Our All School Email</h1></br>
+
+<h2 style="color:red">Our All school email's PDF version can be downloaded <a href="Email.pdf">here</a></br>
+<h2 style="color:green"><marquee behavior="scroll" direction="right">Navigation </marquee></h2></br>
+<a href="index.html">Back to the main page</a></br>
+</body></html>
